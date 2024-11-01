@@ -20,10 +20,6 @@ math for mathematical functions
 google.colab for file handling (for download in Colab)
 
 **Installation**
-
-Clone the repository:
-bash
-
 **Copy code**
 
 git clone https://github.com/shubarya2912/beam-analysis-tool.git
@@ -33,19 +29,17 @@ cd beam-analysis-tool
 Run the script:
 python beam_analysis.py
 
-Enter beam properties:
-
+**Enter beam properties:**
 Provide beam length, width, depth, and web thickness as prompted.
-Specify load cases:
 
+**Specify load cases:**
 You can add uniformly distributed loads, point loads, and uniformly varying loads.
 Enter the required details for each load type.
-View and download results:
 
+**View and download results:**
 The program displays shear, moment, and deflection values at various intervals.
 The results are saved in beam_design_input.txt, which can be downloaded if using Google Colab.
 Plot graphs:
-
 Graphs of shear force, bending moment, and deflection are displayed after calculations.
 
 **Example Output**
